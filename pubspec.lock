@@ -1187,7 +1187,7 @@ packages:
     description:
       path: "libs/windows/media_kit_libs_windows_video"
       ref: "version_1.2.5"
-      resolved-ref: "49df3595dd355b3fa495cb5038116c689973214a"
+      resolved-ref: f53493f2054846119dfc8d7727cf5485d08ce216
       url: "https://github.com/KawaiiHachimi/media-kit-Win-Arm64.git"
     source: git
     version: "1.0.10"
@@ -1205,7 +1205,7 @@ packages:
     description:
       path: media_kit_video
       ref: "version_1.2.5"
-      resolved-ref: "49df3595dd355b3fa495cb5038116c689973214a"
+      resolved-ref: f53493f2054846119dfc8d7727cf5485d08ce216
       url: "https://github.com/KawaiiHachimi/media-kit-Win-Arm64.git"
     source: git
     version: "1.2.5"

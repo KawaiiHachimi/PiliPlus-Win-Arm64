@@ -1612,9 +1612,12 @@ class PlPlayerController with BlockConfigMixin {
   }
 
   void onCloseAll() {
+    if (_isCloseAll) {
+      return;
+    }
     _isCloseAll = true;
-    dispose();
     Get.until((route) => route.isFirst);
+    Future<void>.delayed(const Duration(milliseconds: 100), dispose);
   }
 
   void dispose() {
