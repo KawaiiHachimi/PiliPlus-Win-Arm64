@@ -296,10 +296,10 @@ packages:
     dependency: transitive
     description:
       name: code_assets
-      sha256: "67cf6d84013f9c601e42a6f8a6b74c4c0d9dc1a1619d775f2b28b732d3551b85"
+      sha256: bf394f466ba9205f1812a0433b392d6af280f155f56651eda7c18cc32ed493b8
       url: "https://pub.dev"
     source: hosted
-    version: "1.2.0"
+    version: "1.2.1"
   collection:
     dependency: "direct main"
     description:
@@ -757,10 +757,10 @@ packages:
     dependency: "direct main"
     description:
       name: flutter_volume_controller
-      sha256: "27b95004d8abd7c6b24a63e555d721ef5f958fbe54551246567b72321494c6c8"
+      sha256: "78297fd48ce6330d39a11a4c1ae219a3256249f99dec34cfbe9323d2cbb5ebb9"
       url: "https://pub.dev"
     source: hosted
-    version: "2.0.0"
+    version: "2.0.1"
   flutter_web_plugins:
     dependency: transitive
     description: flutter
@@ -828,10 +828,10 @@ packages:
     dependency: transitive
     description:
       name: hooks
-      sha256: a41af4e8fc687cd6d33de9751eb936c8c0204ebe2bcb6c15ecf707504bf47f31
+      sha256: "62ae9bb76d02526c7c2110a19b6e6ad788fe28d35e553e35efb02a41a46ab43a"
       url: "https://pub.dev"
     source: hosted
-    version: "2.0.0"
+    version: "2.0.1"
   html:
     dependency: "direct main"
     description:
@@ -1013,7 +1013,7 @@ packages:
     description:
       path: "pkgs/jnigen"
       ref: HEAD
-      resolved-ref: "14f4ce655c0cebb203777b8200303a9bc1f0b04e"
+      resolved-ref: e0e6c0332c483caa516339118f13a0b1f4ec0544
       url: "https://github.com/dart-lang/native.git"
     source: git
     version: "0.17.0-wip"
@@ -1187,8 +1187,8 @@ packages:
     description:
       path: "libs/windows/media_kit_libs_windows_video"
       ref: "version_1.2.5"
-      resolved-ref: "4f0f72e5bf21349bc251bf52761628faeae3f233"
-      url: "https://github.com/My-Responsitories/media-kit.git"
+      resolved-ref: "046d84b32c90ea79d533d10995203eee7f3fc64a"
+      url: "https://github.com/KawaiiHachimi/media-kit-Win-Arm64.git"
     source: git
     version: "1.0.10"
   media_kit_native_event_loop:
@@ -1205,8 +1205,8 @@ packages:
     description:
       path: media_kit_video
       ref: "version_1.2.5"
-      resolved-ref: "4f0f72e5bf21349bc251bf52761628faeae3f233"
-      url: "https://github.com/My-Responsitories/media-kit.git"
+      resolved-ref: "046d84b32c90ea79d533d10995203eee7f3fc64a"
+      url: "https://github.com/KawaiiHachimi/media-kit-Win-Arm64.git"
     source: git
     version: "1.2.5"
   menu_base:
@@ -1366,10 +1366,10 @@ packages:
     dependency: "direct main"
     description:
       name: permission_handler_apple
-      sha256: "447c18bc3c5fdea5c3039f042b2b365fd51e3634f5f6e269ed22c1f00071addc"
+      sha256: e20daf680eef1ca62ffe8c8c526b778cc386d50137c77ac71c8ec9c88c13fb9d
       url: "https://pub.dev"
     source: hosted
-    version: "9.4.8"
+    version: "9.4.9"
   permission_handler_platform_interface:
     dependency: "direct main"
     description:
@@ -1502,10 +1502,10 @@ packages:
     dependency: transitive
     description:
       name: screen_brightness_android
-      sha256: "2df5e0488a22a73271a43d92dbcd80643df6910cf69690faacaf9929ae9ade3b"
+      sha256: "0e4b0a07d5f730b91a8780d8436f3a92be8a8cc2066032ed88b93c8fa153fadf"
       url: "https://pub.dev"
     source: hosted
-    version: "2.1.4"
+    version: "2.1.5"
   screen_brightness_ios:
     dependency: transitive
     description:

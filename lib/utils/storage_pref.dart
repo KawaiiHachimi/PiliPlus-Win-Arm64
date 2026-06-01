@@ -258,6 +258,8 @@ abstract final class Pref {
     SettingBoxKey.hardwareDecoding,
     defaultValue: Platform.isAndroid
         ? HwDecType.autoSafe.hwdec
+        : PlatformUtils.isWindowsArm64
+        ? HwDecType.autoCopy.hwdec
         : HwDecType.auto.hwdec,
   );
 

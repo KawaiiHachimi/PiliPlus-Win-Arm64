@@ -196,7 +196,7 @@ dependency_overrides:
       ref: version_1.2.5
   media_kit_libs_windows_video:
     git:
-      url: https://github.com/My-Responsitories/media-kit.git
+      url: https://github.com/KawaiiHachimi/media-kit-Win-Arm64.git
       path: libs/windows/media_kit_libs_windows_video
       ref: version_1.2.5
   media_kit_native_event_loop:
@@ -206,7 +206,7 @@ dependency_overrides:
       ref: version_1.2.5
   media_kit_video:
     git:
-      url: https://github.com/My-Responsitories/media-kit.git
+      url: https://github.com/KawaiiHachimi/media-kit-Win-Arm64.git
       path: media_kit_video
       ref: version_1.2.5
 

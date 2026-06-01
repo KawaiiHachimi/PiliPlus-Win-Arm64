@@ -1,3 +1,4 @@
+import 'dart:ffi' show Abi;
 import 'dart:io' show Platform;
 
 abstract final class PlatformUtils {
@@ -7,4 +8,7 @@ abstract final class PlatformUtils {
   @pragma("vm:platform-const")
   static final bool isDesktop =
       Platform.isWindows || Platform.isMacOS || Platform.isLinux;
+
+  static final bool isWindowsArm64 =
+      Platform.isWindows && Abi.current() == Abi.windowsArm64;
 }
